@@ -1,8 +1,8 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 const lifecycle = process.env.npm_lifecycle_event
-const baseUrl = 'http://192.168.231.197:7002/dev';
-const localeUrl = 'http://192.168.0.133:7000';
+const baseUrl = 'http://uprodback.somee.com';
+const localeUrl = 'http://localhost:7000';
 
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     public: {
       apiBase: '/api',
       localeUrl: localeUrl,
-      baseUrl: localeUrl,
+      baseUrl: baseUrl,
       useProxy: false,
     },
   },
