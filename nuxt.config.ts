@@ -30,6 +30,7 @@ export default defineNuxtConfig({
     head: {
       title: 'UPRODFRONT',
       meta: [
+        { content:"upgrade-insecure-requests", name:"Content-Security-Policy" },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           hid: 'description',
