@@ -28,7 +28,7 @@ export default defineNuxtConfig({
     baseURL: '/UPRODFRONT/',
     cdnURL: './',
     head: {
-      title: 'UPRod.Frontend',
+      title: 'UPRODFRONT',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
