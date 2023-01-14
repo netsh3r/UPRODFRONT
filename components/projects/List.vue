@@ -1,10 +1,9 @@
 <template>
-    <div>asdkjfhkasjdhfkjashdf</div>
-    <!-- <div class="flex flex-wrap gap-5 justify-center">
+    <div class="flex flex-wrap gap-5 justify-center">
         <template v-for="index in projects">
             <CardItem :project-value="index"/>
         </template>
-    </div> -->
+    </div>
 </template>
 
 <script lang="ts">
@@ -18,10 +17,10 @@ export default defineComponent({
         CardItem
     },
     async setup() {
-        // const projects = await fetch<ProjectItem[]>("/Projects/List", {
-        //     method: 'GET'
-        // });
-        return {};
+        const projects = await fetch<ProjectItem[]>("/Projects/List", {
+            method: 'GET'
+        });
+        return {projects};
     }
 });
 </script>
