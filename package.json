@@ -1,7 +1,7 @@
 {
   "private": false,
   "scripts": {
-    "dev": "nuxi dev",
+    "dev": "nuxi dev --https true",
     "build": "nuxi build",
     "preview": "nuxi preview",
     "start": "node .output/server/index.mjs",
