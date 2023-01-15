@@ -19,7 +19,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       apiBase: '/api',
-      localeUrl: localeUrl,
+      localeUrl: baseUrl,
       baseUrl: baseUrl,
       useProxy: false,
     },
