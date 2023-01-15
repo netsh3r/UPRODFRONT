@@ -1,7 +1,8 @@
 {
   "private": false,
   "scripts": {
-    "dev": "nuxi dev --https true",
+    "devHttps": "nuxi dev --https true --ssl-cert server.crt --ssl-key server.key --p 3030",
+    "dev": "nuxi dev",
     "build": "nuxi build",
     "preview": "nuxi preview",
     "start": "node .output/server/index.mjs",

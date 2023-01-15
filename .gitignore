@@ -88,3 +88,10 @@ sw.*
 
 # Vim swap files
 *.swp
+/dist
+/node_modules
+/.nuxt
+/.output
+/yarn.lock
+/server.crt
+/server.key
