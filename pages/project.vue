@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-black h-screen flex-col">
+    <div class="h-screen flex-col">
         <div class="w-full h-40">
             <div class="container mx-auto">Шапка проекта</div>
         </div>
