@@ -2,7 +2,7 @@ import { defineNuxtConfig } from 'nuxt/config'
 
 const lifecycle = process.env.npm_lifecycle_event
 const baseUrl = 'https://uprodback.somee.com';
-const localeUrl = 'https://localhost:7000';
+const localeUrl = 'https://localhost:44349';
 
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
@@ -19,9 +19,9 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       apiBase: '/api',
-      localeUrl: baseUrl,
+      localeUrl: localeUrl,
       baseUrl: baseUrl,
-      useProxy: false,
+      useProxy: true,
     },
   },
   app: {
