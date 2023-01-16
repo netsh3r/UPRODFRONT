@@ -21,7 +21,7 @@ export default defineNuxtConfig({
       apiBase: '/api',
       localeUrl: localeUrl,
       baseUrl: baseUrl,
-      useProxy: true,
+      useProxy: false,
     },
   },
   app: {
